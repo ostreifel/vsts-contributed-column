@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "contributed-column",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "name": "contributed-column",
     "scopes": [ "vso.work", "vso.work_write" ],
     "description": "Describe your extension.",
