@@ -1,4 +1,4 @@
-## contributed-column ##
+## img-count-column ##
 
 Very simple seed project for developing VSTS extensions using Typescript. Utilizes Typescript, grunt, and tsd. Detailed explanation how to get started can be found at https://cschleiden.wordpress.com/2016/02/24/extending-vsts-setup/.
 

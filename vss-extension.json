@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "contributed-column",
-    "version": "0.1.4",
-    "name": "contributed-column",
+    "id": "img-count-column",
+    "version": "0.1.10",
+    "name": "Image Count Column",
     "scopes": [ "vso.work", "vso.work_write" ],
     "description": "Describe your extension.",
     "publisher": "your-publisher",
@@ -45,15 +45,15 @@
     ],
     "contributions": [
         {
-            "id": "contributed-column",
+            "id": "img-count-column",
             "type": "ms.vss-work-web.query-column",
             "description": "",
             "targets": [
                 "ms.vss-work-web.query-result-columns"
             ],
             "properties": {
-                "name": "ContributedColumn",
-                "title": "Contributed Column",
+                "name": "AssociatedImages",
+                "title": "Png Files",
                 "group": "contributed",
                 "uri": "index.html"
             }
