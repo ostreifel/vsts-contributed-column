@@ -1,9 +1,9 @@
 {
     "manifestVersion": 1,
-    "id": "img-count-column",
-    "version": "0.1.10",
-    "name": "Image Count Column",
-    "scopes": [ "vso.work", "vso.work_write" ],
+    "id": "pull-request-column",
+    "version": "0.1.25",
+    "name": "Pull Request Column",
+    "scopes": [ "vso.work", "vso.work_write", "vso.code" ],
     "description": "Describe your extension.",
     "publisher": "your-publisher",
     "icons": {
@@ -36,7 +36,7 @@
             "addressable": true
         },
         {
-            "path": "index.html",
+            "path": "column.html",
             "addressable": true
         }
     ],
@@ -45,17 +45,17 @@
     ],
     "contributions": [
         {
-            "id": "img-count-column",
+            "id": "pull-request-column",
             "type": "ms.vss-work-web.query-column",
             "description": "",
             "targets": [
                 "ms.vss-work-web.query-result-columns"
             ],
             "properties": {
-                "name": "AssociatedImages",
-                "title": "Png Files",
+                "name": "Associated Pull Request",
+                "title": "Pull Request",
                 "group": "contributed",
-                "uri": "index.html"
+                "uri": "column.html"
             }
         }
     ]
