@@ -10,6 +10,7 @@
         "!**/*.tests.ts"
     ],
     "files": [
+        "scripts/CachedValue.ts",
         "scripts/column.ts",
         "scripts/prIcon.ts"
     ]

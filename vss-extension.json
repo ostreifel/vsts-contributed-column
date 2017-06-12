@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "pull-request-column",
-    "version": "0.1.25",
+    "version": "0.1.26",
     "name": "Pull Request Column",
     "scopes": [ "vso.work", "vso.work_write", "vso.code" ],
     "description": "Describe your extension.",
